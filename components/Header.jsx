@@ -4,8 +4,8 @@ import React from 'react'
 const Header = () => {
   return (
       <div className='card px-4 w-full flex justify-between py-4 text-cyan-900'>
-            <div className="font-bold text-2xl ">
-                  <h3><span className='italic'>Manou's</span> Portfolio</h3>
+            <div className="font-extrabold text-2xl ">
+                  <h3><span className=''>Manou's</span> Portfolio</h3>
             </div>
             <div className="flex space-x-4">
                   <div className="cursor-pointer">
