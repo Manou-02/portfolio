@@ -21,7 +21,6 @@ a {
 
 .card {
   border-radius: 0px;
-  background: #ffffff;
   box-shadow:  5px 5px 8px #f2f2f2,
               -5px -5px 8px #ffffff;
 }

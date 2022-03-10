@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
       offset: 50,
     });
   }, []);
-  
+
   return (
     <div className=''>
       <Header />

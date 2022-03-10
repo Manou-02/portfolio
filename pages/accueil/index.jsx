@@ -1,8 +1,9 @@
+import Image from 'next/image'
 import React from 'react'
 
 function index() {
   return (
-      <div className='my-20 mx-60 flex space-x-10'>
+      <div className='my-20 mx-60 flex flex-col md:flex-row space-x-10'>
             <div className="" data-aos="fade-down">
                   <div className="my-10">
                         <h1 className='text-cyan-900 font-extrabold text-5xl'>Développeur fullstack</h1>
@@ -13,7 +14,8 @@ function index() {
                   <button className='bg-cyan-900 text-white py-2 px-4 rounded'>Contactez-moi</button>
             </div>
             <div className="w-full h-full" data-aos="fade-up">
-                  <img src='/1.png' className='w-max h-max'/>
+                  <Image src="/1.png" width={1000} height={1000} />
+                  {/* <img src='/1.png' className='w-max h-max'/> */}
             </div>
       </div>
   )
